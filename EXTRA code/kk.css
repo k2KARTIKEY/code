@@ -1,0 +1,17 @@
+.pixel{
+    font-size: 50px;
+    font-family: 'segue';
+    font-weight: bolder;
+}
+.point{
+    font-size: 50pt;
+}
+.em{
+    font-size: 1em;
+}
+footer{
+    font-size: 40px;
+}
+html{
+    font-size: 70px;
+}

@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int a[3][3] = { {1,2,3}, {4,5,6}, {7,8,9} };
+    int target = 5;
+    int found = 0;
+
+    for(int i = 0; i < 3; i++) {
+        for(int j = 0; j < 3; j++) {
+            if(a[i][j] == target) {
+                printf("Element found at (%d, %d)\n", i, j);
+                found = 1;
+            }
+        }
+    }
+
+    if(!found)
+        printf("Element not found\n");
+
+    return 0;
+}
